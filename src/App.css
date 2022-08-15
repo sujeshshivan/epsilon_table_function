@@ -1,0 +1,58 @@
+
+.container{
+  margin:50px;
+  max-width: 100vh;
+}
+
+table {
+  border: 1px solid #000;
+  border-radius: 5px;
+  border-spacing: 0px;
+
+}
+
+table thead th {
+  font-weight: bold;
+  font-size: 14px;
+  color: #666666;
+  background-color: #f7f7f7;
+}
+
+table thead button {
+  margin-left: 10px;
+  color: #0063e6;
+}
+
+table thead button:hover {
+  color: #f0f6ff;
+}
+
+table tr {
+  font-weight: normal;
+  font-size: 14px;
+  color: #666666;
+}
+table tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+table tr:hover {
+  background-color: #f0f6ff;
+}
+
+button{
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+th, td {
+  padding-top: 14px;
+  padding-bottom: 13px;
+  padding-left: 10px;
+  padding-right: 24px;
+}
